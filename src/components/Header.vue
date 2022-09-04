@@ -40,7 +40,6 @@ export default {
   color: white;
 
   .text-header {
-    padding-top: 6.5vh;
     max-width: 50vw;
     h1 {
       font-size: 3.6rem;

@@ -20,15 +20,15 @@ export default {
       </div>
       <div class="col-md-8">
         <div class="card-body">
-          <div class="px-5">
-            <div class="card-title fw-bold">Lorem ipsum, E1 T2</div>
+          <div class="card-title fw-bold text-dark">Lorem ipsum, E1 T2</div>
+          <div class="card-text">
             <audio controls class="player">
               <source src="../assets/podcast.mp3" type="audio/mpeg" />
             </audio>
-            <p class="card-text">
-              <small class="text-muted">Last update 3 min ago</small>
-            </p>
           </div>
+          <p class="card-text">
+            <small class="text-muted">Last episode 3 hours ago</small>
+          </p>
         </div>
       </div>
     </div>
@@ -38,10 +38,8 @@ export default {
 <style scoped lang="scss">
 .card {
   position: absolute;
-  color: black;
   width: 50vw;
   left: 25vw;
   top: 80vh;
-  border: none;
 }
 </style>
