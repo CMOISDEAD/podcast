@@ -13,8 +13,8 @@ export default {
     <div class="container">
       <div class="text-header">
         <h1 class="text-uppercase">
-          Best podcasts <br />
-          for curious minds.
+          <span class="enfasis">Best</span> podcasts <br />
+          for <span class="underline">curious minds</span>
         </h1>
         <p class="text-small fw-600">
           Ensuring the best ensure on investetment for your bespoke SEO campaing
@@ -38,6 +38,17 @@ export default {
   justify-content: flex-start;
   align-items: center;
   color: white;
+
+  .enfasis {
+    background: -webkit-linear-gradient(#33b1ff, #08bdba);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .underline {
+    text-decoration: underline #33b1ff wavy;
+  }
 
   .text-header {
     max-width: 50vw;

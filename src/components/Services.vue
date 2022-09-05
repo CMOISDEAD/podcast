@@ -54,14 +54,21 @@ export default {
     background: #161616af !important;
     width: 15vw;
     height: 10vh;
+    transition: all 0.5s ease-out;
+
     .box {
       display: flex;
       flex-flow: row nowrap;
       justify-content: space-evenly;
-      align-content: center;
+      margin-bottom: 3vh;
     }
-    .bi {
-      font-size: 1.8rem !important;
+
+    .logo {
+      font-size: 2.5rem !important;
+    }
+
+    &:hover {
+      background: #161616 !important;
     }
   }
 }
