@@ -10,31 +10,32 @@ export default {
 </script>
 
 <template>
-  <div class="card mb-3">
+  <div class="card mb-3" style="height: 25vh; overflow: hidden">
     <div class="row g-0">
       <div class="col-md-4">
         <img
-          src="https://preview.codeless.co/livecast/default/wp-content/uploads/2021/03/das-min-150x150.jpg"
+          src="../../public/autor.jpg"
           class="img-fluid rounded-start"
           alt="podcast thumbnail"
-          style="height: 25vh;"
+          style="width: 15vw; object-fit: cover; object-position: center"
         />
       </div>
       <div class="col-md-8">
         <div class="card-body">
           <div class="card-title fw-bold text-dark">
-            <span class="text-cyan fw-normal">Season 2, Episode 3</span><br />
-            Finding Moments Of Joy In A Challenging Year
+            <span class="text-cyan fw-normal">Temporada 1, Episodio 3</span
+            ><br />
+            Erotismo y Letras
           </div>
           <div class="card-text">
             <Audio />
           </div>
           <p class="card-text">
             <small class="text-muted footer">
-              Uploaded 3 hours ago
+              Subido hace 3 horas
               <span>
                 <router-link to="/" class="link">
-                  Go there!
+                  Ir allí!
                   <i class="bi bi-arrow-right px-2"></i>
                 </router-link>
               </span>

@@ -1,24 +1,27 @@
 <script>
 import Services from "./Services.vue";
 import Player from "./Player.vue";
+import Navbar from "./Navbar.vue";
 
 export default {
   name: "Header",
-  components: { Services, Player },
+  components: { Services, Player, Navbar },
 };
 </script>
 
 <template>
+  <Navbar :main="true" />
   <div class="header">
     <div class="container">
       <div class="text-header">
-        <h1 class="text-uppercase">
-          <span class="enfasis">Best</span> podcasts <br />
-          for <span class="underline">curious minds</span>
+        <h1 class="text-uppercase text-nowrap">
+          <span class="enfasis">Mejor</span> podcast <br />
+          para <span class="underline">mentes curiosas</span>
         </h1>
         <p class="text-small fw-600">
-          Ensuring the best ensure on investetment for your bespoke SEO campaing
-          and Grow yoru podscast audience with your audience favorite platforms.
+          Un espacio donde podrás conocer y disfrutar sin el menor esfuerzo;
+          Láudano te proporcionará múltiples opciones donde podrás aprender
+          distintos temas, quédate y echa un vistazo.
         </p>
       </div>
       <Services />

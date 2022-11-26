@@ -5,7 +5,7 @@ export default {
   data() {
     return {
       paused: true,
-      duration: "1:36",
+      duration: "8:30",
     };
   },
   methods: {
@@ -35,7 +35,7 @@ export default {
     <small class="text-muted px-2">{{ duration }} minutes</small>
   </div>
   <audio id="audio" ref="audio">
-    <source src="../assets/podcast.mp3" type="audio/mpeg" />
+    <source src="../../public/podcast.mp3" type="audio/mpeg" />
   </audio>
 </template>
 

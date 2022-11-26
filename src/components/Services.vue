@@ -7,43 +7,34 @@ export default {
 <template>
   <div class="button-group">
     <div class="btn btn-dark mx-2 btn-services">
-      <div class="box">
-        <div class="logo">
-          <i class="bi bi-spotify"></i>
-        </div>
+      <router-link to="/desarrollo" class="box text-white">
         <div class="text">
           <p>
-            Listen on <br />
-            <span class="fw-bold">Spotify</span>
+            Observar<br />
+            <span class="fw-bold">Infografia</span>
           </p>
         </div>
-      </div>
+      </router-link>
     </div>
     <div class="btn btn-dark mx-2 btn-services">
-      <div class="box">
-        <div class="logo">
-          <i class="bi bi-apple"></i>
-        </div>
+      <router-link to="/portales" class="box text-white">
         <div class="text">
           <p>
-            Listen on <br />
-            <span class="fw-bold">Apple Music</span>
+            Observar <br />
+            <span class="fw-bold">Exposición</span>
           </p>
         </div>
-      </div>
+      </router-link>
     </div>
     <div class="btn btn-dark mx-2 btn-services">
-      <div class="box">
-        <div class="logo">
-          <i class="bi bi-google"></i>
-        </div>
+      <router-link to="/fotoreportaje" class="box text-white">
         <div class="text">
           <p>
-            Listen on <br />
-            <span class="fw-bold">Podcast</span>
+            Observar<br />
+            <span class="fw-bold">Foto reportaje</span>
           </p>
         </div>
-      </div>
+      </router-link>
     </div>
   </div>
 </template>

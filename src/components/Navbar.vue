@@ -1,20 +1,26 @@
 <template>
-  <nav class="navbar navbar-dark navbar-expand-lg bg-dark nav-absolute">
+  <div
+    :class="[
+      'navbar navbar-dark navbar-expand-lg bg-dark',
+      { 'nav-absolute': main },
+    ]"
+  >
     <div class="container-fluid">
-      <router-link to="/" class="navbar-brand">Podcast</router-link>
+      <router-link to="/" class="navbar-brand">Laudano</router-link>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav">
-          <router-link to="/" class="nav-link active">Home</router-link>
-          <router-link to="/about" class="nav-link">About</router-link>
           <router-link to="/shows" class="nav-link">Shows</router-link>
-          <router-link to="/contact" class="nav-link">Contact</router-link>
+          <router-link to="/about" class="nav-link">Acerca</router-link>
+          <router-link to="/contact" class="nav-link">Contacto</router-link>
         </div>
       </div>
     </div>
-  </nav>
+  </div>
 </template>
 
-<script lang="ts" setup></script>
+<script>
+export default { name: "Fotoreportaje", props: ["main"] };
+</script>
 
 <style lang="scss" scoped>
 .nav-absolute {

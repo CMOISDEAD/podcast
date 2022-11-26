@@ -7,12 +7,12 @@ export default {
 <template>
   <div class="footer p-5">
     <div class="container">
-      <div class="fs-3 text-white">Podcast</div>
+      <div class="fs-3 text-white">Laudano</div>
       <div class="text-muted">
         Adipisicing nostrum quibusdam veniam porro iusto! Vel molestiae
         molestiae ratione facilis id. Nisi ab ipsa explicabo excepturi facere
         doloribus Itaque iusto dicta alias amet maiores. Doloribus corporis
-        repellat id debitis. 
+        repellat id debitis.
         <a class="mx-1" href="#">Documents</a>
         <a class="mx-1" href="#">Policy</a>
         <a class="mx-1" href="#">Contract</a>

@@ -5,24 +5,24 @@ export default {
 </script>
 
 <template>
-  <h3 class="text-capitalize">Latest Post</h3>
-  <p class="text-muted">Browse all <i class="bi bi-arrow-right"></i></p>
+  <h3 class="text-capitalize">Últimos Entradas</h3>
+  <p class="text-muted">Ver todas <i class="bi bi-arrow-right"></i></p>
   <div class="podcasts">
-    <div class="latest p-5 rounded my-3">
-      <div class="fs-3">Finding Moments Of Joy In A Challenging Year</div>
-      <div class="tags text-cyan">Social</div>
-      <p>3 hours ago</p>
-    </div>
-    <div class="latest p-5 rounded my-3">
-      <div class="fs-3">Even Deluded Demagogues Renounced</div>
-      <div class="tags text-cyan">Tech</div>
-      <p>1 day ago</p>
-    </div>
-    <div class="latest p-5 rounded my-3">
-      <div class="fs-3">Greenland Unicorns and the Magical Alicorn</div>
-      <div class="tags text-cyan">Bussines</div>
-      <p>1 week ago</p>
-    </div>
+    <router-link to="/fotoreportaje" class="latest p-5 rounded my-3">
+      <div class="fs-3">Foto reportaje, Espacios Públicos</div>
+      <div class="tags text-white-50">Social</div>
+      <p>Hace 3 días</p>
+    </router-link>
+    <router-link to="/desarrollo" class="latest p-5 rounded my-3">
+      <div class="fs-3">Desarrollo de la comunicación humana</div>
+      <div class="tags text-white-50">Social</div>
+      <p>Hace 1 semana</p>
+    </router-link>
+    <router-link to="/portales" class="latest p-5 rounded my-3">
+      <div class="fs-3">Portales universitarios</div>
+      <div class="tags text-white-50">Social</div>
+      <p>Hace 1 semana</p>
+    </router-link>
   </div>
 </template>
 

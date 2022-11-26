@@ -8,10 +8,10 @@ export default {
   <hr />
   <div class="new-box mb-3 p-4 rounded">
     <div class="text pe-4">
-      <div class="fs-3">Sign up for our newsletter</div>
+      <div class="fs-3">Registrare para nuestro Periódico</div>
       <div class="text-muted">
-        Get notified about updates and be the first to get early access to new
-        episodes.
+        Recibe notificaciones acerca de actualizaciones y se el primero en
+        recibir acceso a nuestro nuevos episodios
       </div>
     </div>
     <div class="input w-100 ps-4">
@@ -28,7 +28,7 @@ export default {
           type="button"
           id="button-addon2"
         >
-          Sign up
+          Registrarse
         </button>
       </div>
     </div>
@@ -55,10 +55,10 @@ export default {
   .btn-outline-secondary {
     background: #161616af;
     color: #ffffffaf;
-    transition: all .5s ease-out;
+    transition: all 0.5s ease-out;
 
     &:hover {
-    color: #fff;
+      color: #fff;
       background: #161616;
     }
   }
