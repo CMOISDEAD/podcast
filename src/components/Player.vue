@@ -14,7 +14,7 @@ export default {
     <div class="row g-0">
       <div class="col-md-4">
         <img
-          src="../../public/autor.jpg"
+          src="/autor.jpg"
           class="img-fluid rounded-start"
           alt="podcast thumbnail"
           style="width: 15vw; object-fit: cover; object-position: center"

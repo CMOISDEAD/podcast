@@ -7,7 +7,7 @@ export default {
   components: { Navbar, VuePdfEmbed },
   data() {
     return {
-      source: "../../public/desarrollo.pdf",
+      source: "/desarrollo.pdf",
     };
   },
 };

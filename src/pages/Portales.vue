@@ -7,7 +7,7 @@ export default {
   components: { Navbar, VuePdfEmbed },
   data() {
     return {
-      source: "../../public/portales.pdf",
+      source: "/portales.pdf",
     };
   },
 };

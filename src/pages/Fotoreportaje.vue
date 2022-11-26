@@ -7,7 +7,7 @@ export default {
   components: { Navbar, VuePdfEmbed },
   data() {
     return {
-      source: "../../public/fotoreportaje.pdf",
+      source: "/fotoreportaje.pdf",
     };
   },
 };

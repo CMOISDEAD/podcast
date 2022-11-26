@@ -35,7 +35,7 @@ export default {
     <small class="text-muted px-2">{{ duration }} minutes</small>
   </div>
   <audio id="audio" ref="audio">
-    <source src="../../public/podcast.mp3" type="audio/mpeg" />
+    <source src="/podcast.mp3" type="audio/mpeg" />
   </audio>
 </template>
 
